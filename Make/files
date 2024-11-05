@@ -1,0 +1,3 @@
+wettedSurfaceArea.C
+
+LIB = $(FOAM_USER_LIBBIN)/libwettedSurfaceArea
