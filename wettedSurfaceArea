@@ -1,0 +1,18 @@
+  wettedSurface
+    {
+        type            wettedSurfaceArea;
+        libs            ("libwettedSurfaceArea.so");
+        
+        // Field name for phase fraction
+        alphaName       "alpha.water";
+        
+        // Name of the ship hull patch
+        patchName       "hull";
+        
+        // Optional: threshold value (default is 0.5)
+        threshold       0.5;
+        
+        // Function object execution control
+        writeControl    timeStep;
+        writeInterval   1;
+    }
